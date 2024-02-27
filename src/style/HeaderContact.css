@@ -1,5 +1,6 @@
 .header__contact {
     display: flex;
+    align-items: center;
 }
 
 .header__contact__right {
@@ -18,4 +19,5 @@
 
 #sonntag {
     color: red;
+    font-weight: 500;
 }

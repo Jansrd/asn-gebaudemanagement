@@ -40,7 +40,7 @@ const Header = () => {
             </div>
             <div className="header__bottom">
                 <ul className='navigation'>
-                    <li><Link to="/startseite">Startseite</Link></li>
+                    <li><Link to="/">Startseite</Link></li>
                     <li><Link to="/über-uns">Über uns</Link></li>
                     <li><Link to="/dienstleistungen">Dienstleistungen</Link></li>
                     <li><Link to="/kontaktiere-uns">Kontaktiere uns</Link></li>

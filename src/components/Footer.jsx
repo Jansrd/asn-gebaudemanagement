@@ -59,8 +59,8 @@ const Footer = () => {
                                 text2="Sonntag GESCHLOSSEN"
                                 color="rgb(255, 255, 255)"
                             />
-                            <h3>Senden Sie uns eine E-Mail und wir werden uns in Kürze
-                                bei Ihnen melden.</h3>
+                            <h4>Senden Sie uns eine E-Mail und wir werden uns in Kürze
+                                bei Ihnen melden.</h4>
                         </div>
                     </div>
                 </div>

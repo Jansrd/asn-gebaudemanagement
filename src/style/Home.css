@@ -20,6 +20,10 @@
     margin-top: 30px;
 }
 
+.home__promo h1:after {
+    content: "ASN Gebäudemanagement ihr partner und um gebaude und garten.";
+}
+
 .warum__wir {
     width: 100%;
     height: auto;
@@ -122,12 +126,11 @@
     height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
 }
 
 .form {
-    width: 80%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -135,7 +138,6 @@
 
 .form__top {
     width: 100%;
-    height: auto;
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
@@ -162,7 +164,7 @@
 
 .form__middle textarea {
     width: 100%;
-    height: 150px;
+    height: 140px;
     margin-bottom: 20px;
     font-size: 14px;
     padding-left: 10px;
@@ -189,7 +191,7 @@
 
 .checkbox p {
     font-size: 14px;
-    margin-left: 20px;
+    margin-left: 15px;
 }
 
 .send__btn {

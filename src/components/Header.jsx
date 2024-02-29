@@ -3,12 +3,14 @@ import '../style/Header.css'
 import asn_logo from '../images/ans_logo.png'
 import HeaderContact from './HeaderContact'
 import location_pin from '../images/location_pin.png'
+import menu from '../images/menu.png'
 import call from '../images/call.png'
 import clock from '../images/clock.png'
 import { Link } from 'react-router-dom'
 
 
 const Header = () => {
+
     return (
         <div className="header">
             <div className="header__top">
@@ -19,7 +21,7 @@ const Header = () => {
                     <div className="header__middle__left">
                         <img src={asn_logo} alt="" />
                     </div>
-                    <div className="headaer__middle__right">
+                    <div className="header__middle__right">
                         <HeaderContact
                             icon={location_pin}
                             text1="ASN Gebäudemanagement,"
@@ -45,6 +47,7 @@ const Header = () => {
                     <li><Link to="/dienstleistungen">Dienstleistungen</Link></li>
                     <li><Link to="/kontaktiere-uns">Kontaktiere uns</Link></li>
                 </ul>
+                <img src={menu} alt="" />
             </div>
         </div>
     )

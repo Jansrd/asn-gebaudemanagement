@@ -45,7 +45,7 @@ const Home = () => {
         <div className="home">
             <div className="home__promo">
                 <img src={asn_logo_promo} alt="" />
-                <h1>ASN Gebäudemanagement ihr partner und um gebaude und garten.</h1>
+                <h1></h1>
             </div>
 
             <div className="warum__wir">
@@ -107,7 +107,7 @@ const Home = () => {
                 <h1>KONTAKTIEREN SIE UNS</h1>
                 <div className="kontaktieren__sie__uns__content">
                     <div className="kontaktieren__sie__uns__content__left">
-                        <iframe title='maps' width="80%" height="305" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=Eckstr%C3%9Fa%207%2089250%20Senden+(ASN%20Gebaudemanagement)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps tracker sport</a></iframe>
+                        <iframe title='maps' width="90%" height="305" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=Eckstr%C3%9Fa%207%2089250%20Senden+(ASN%20Gebaudemanagement)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps tracker sport</a></iframe>
                     </div>
                     <div className="kontaktieren__sie__uns__content__right">
                         <form ref={form} className='form' onSubmit={sendEmail}>

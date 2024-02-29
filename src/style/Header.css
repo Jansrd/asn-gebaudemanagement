@@ -38,7 +38,7 @@
     width: 20%;
 }
 
-.headaer__middle__right {
+.header__middle__right {
     width: 80%;
     display: flex;
     justify-content: space-between;
@@ -71,4 +71,9 @@
 
 .navigation li a:hover {
     border-bottom: 3px solid white;
+}
+
+.header__bottom img {
+    display: none;
+    margin-right: 30px;
 }

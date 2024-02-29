@@ -25,7 +25,7 @@ const Header = () => {
                         <HeaderContact
                             icon={location_pin}
                             text1="ASN Gebäudemanagement,"
-                            text2="Eckstrßa 7 89250 Senden"
+                            text2="Eckstraße 7 89250 Senden"
                         />
                         <HeaderContact
                             icon={call}

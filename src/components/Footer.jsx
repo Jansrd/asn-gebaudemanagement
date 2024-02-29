@@ -13,11 +13,11 @@ const Footer = () => {
     return (
         <>
             <div className="footer">
-                <div className="footer__content">
+                <div id='fc' className="footer__content">
                     <div className="footer__left">
                         <h1>Über uns</h1>
                         <div className="hl"></div>
-                        <p>ASN-Gebäudemanagement steht für höchste Standards
+                        <p id='footer__left__text'>ASN-Gebäudemanagement steht für höchste Standards
                             und erstklassigen Service. Wir sind ein eingetragener
                             Betrieb und setzen auf modernste, umwelt- und
                             materialschonende Reiniger für eine hochwertige
@@ -65,7 +65,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className="footer__end">
+            <div id='footer__end' className="footer__end">
                 <div className="footer__end__left">
                     <p>Copyright&copy; 2024 ASN Gebäudemanagement.<a>All rights reserved.</a></p>
                 </div>

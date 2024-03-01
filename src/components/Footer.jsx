@@ -27,14 +27,15 @@ const Footer = () => {
                         <h1>Deinstleistungen</h1>
                         <div className="hl"></div>
                         <ul>
-                            <li><Link>Unterhaltsreinigung</Link></li>
-                            <li><Link>Grundreinigung</Link></li>
-                            <li><Link>Baureinigung</Link></li>
-                            <li><Link>Glasreinigung</Link></li>
-                            <li><Link>Fassadenreinigung</Link></li>
-                            <li><Link>Gartenpflege</Link></li>
-                            <li><Link>Sonderreinigung</Link></li>
-                            <li><Link>Winterdienst</Link></li>
+                            <li><Link to="/dienstleistungen">Unterhaltsreinigung</Link></li>
+                            <li><Link to="/dienstleistungen">Grundreinigung</Link></li>
+                            <li><Link to="/dienstleistungen">Baureinigung</Link></li>
+                            <li><Link to="/dienstleistungen">Glasreinigung</Link></li>
+                            <li><Link to="/dienstleistungen">Fassadenreinigung</Link></li>
+                            <li><Link to="/dienstleistungen">Hausemeister</Link></li>
+                            <li><Link to="/dienstleistungen">Gartenpflege</Link></li>
+                            <li><Link to="/dienstleistungen">Sonderreinigung</Link></li>
+                            <li><Link to="/dienstleistungen">Winterdienst</Link></li>
                         </ul>
                     </div>
                     <div className="footer__right">
@@ -44,7 +45,7 @@ const Footer = () => {
                             <HeaderContact
                                 icon={location_pin}
                                 text1="ASN Gebäudemanagement,"
-                                text2="Eckstrßa 7 89250 Senden"
+                                text2="Eckstraße 7 89250 Senden"
                                 color="rgb(255, 255, 255)"
                             />
                             <HeaderContact

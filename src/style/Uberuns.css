@@ -1,0 +1,39 @@
+.uber__uns {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.uber__uns__content {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.uber__uns__content__top h1 {
+    color: rgb(10, 135, 31);
+    margin-bottom: 60px;
+}
+
+.uber__uns__content__middle {
+    width: 65%;
+    margin-bottom: 60px;
+}
+
+.uber__uns__content__middle p {
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.uber__uns__content__bottom {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}

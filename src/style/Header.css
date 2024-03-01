@@ -32,6 +32,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+
 }
 
 .header__middle__left {
@@ -73,7 +74,45 @@
     border-bottom: 3px solid white;
 }
 
-.header__bottom img {
+.menu {
     display: none;
     margin-right: 30px;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+}
+
+.exit__menu {
+    display: none;
+    margin-right: 30px;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+}
+
+
+.mobile__menu {
+    position: absolute;
+    top: 105px;
+    width: 100%;
+    height: calc(100vh - 105px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    background-color: rgb(8, 108, 25);
+}
+
+.mobile__menu ul {
+    width: 100%;
+    height: calc(100vh - 105px);
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.mobile__menu li a {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
 }

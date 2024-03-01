@@ -28,6 +28,30 @@
         font-size: 20px;
         justify-content: space-between;
     }
+
+    .deinstleistungen__promo img {
+        width: 350px;
+        height: 140px;
+    }
+
+    .deinstleistungen__promo h2 {
+        font-size: 24px;
+    }
+
+    /*UBER UNS*/
+    #uber__uns__text {
+        font-size: 18px;
+        text-align: justify;
+    }
+
+    #circle {
+        width: 120px;
+        height: 120px;
+    }
+
+    .warum__wir__component__top img {
+        height: 80px;
+    }
 }
 
 @media screen and (max-width: 1200px) and (min-width: 1025px) {
@@ -70,11 +94,12 @@
 
     /*DEINSTLEISTINGEN*/
     .deinstleistungen__promo img {
-        width: 400px;
+        width: 300px;
+        height: 120px;
     }
 
     .deinstleistungen__promo h2 {
-        font-size: 26px;
+        font-size: 22px;
     }
 
     /*KONTAKTIEREN SIE UNS*/
@@ -88,11 +113,11 @@
     }
 
     #footer__left__text {
-        font-size: 14px;
+        font-size: 15px;
     }
 
     .footer__center ul li a {
-        font-size: 14px;
+        font-size: 15px;
     }
 
     .footer__end__left p {
@@ -103,21 +128,31 @@
         height: 18px;
     }
 
+    /*uber uns*/
+    #uber__uns__text {
+        font-size: 18px;
+        text-align: justify;
+    }
+
+    #circle {
+        width: 100px;
+        height: 100px;
+    }
+
+    .warum__wir__component__top img {
+        height: 65px;
+    }
+
+    #wwcb__text h3 {
+        font-size: 18px;
+    }
 }
 
 @media screen and (max-width: 1024px) and (min-width: 769px) {
 
     /*HEADER*/
-    .header__middle__right {
+    .header__middle {
         display: none;
-    }
-
-    .header__middle__content {
-        justify-content: center;
-    }
-
-    .header__middle__left {
-        width: auto;
     }
 
     .navigation {
@@ -131,6 +166,11 @@
     }
 
     /*HOME PROMO*/
+    .home__promo img {
+        width: 450px;
+        height: 273px;
+    }
+
     .home__promo h1:after {
         content: "ihr partner rund um gebaude und garten.";
     }
@@ -159,6 +199,10 @@
         font-size: 22px;
     }
 
+    .deinstleistungen__home__content {
+        grid-template-columns: 1fr 1fr;
+    }
+
     /*KONTAKTIEREN SIE UNS*/
     .kontaktieren__sie__uns__content {
         width: 70%;
@@ -166,6 +210,11 @@
     }
 
     /*FOOTER*/
+
+    #fc {
+        grid-template-columns: 1fr;
+    }
+
     .footer__content h1 {
         font-size: 22px;
     }
@@ -174,25 +223,32 @@
         font-size: 14px;
     }
 
+    .footer__right__content h4 {
+        margin-top: 30px;
+    }
+
+    .footer__right {
+        margin-bottom: 60px;
+    }
+
     .header__contact__left img {
         height: 25px;
     }
 
-    .header__contact__right h3 {
+    .footer__right__content h3 {
         font-size: 14px;
-        word-break: break-word;
     }
 
-    .header__contact__right p {
+    .footer__right__content p {
         font-size: 14px;
     }
 
     #footer__left__text {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .footer__center ul li a {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .footer__end__left p {
@@ -201,6 +257,29 @@
 
     .footer__end__right img {
         height: 12px;
+    }
+
+    /*uber uns*/
+    #uber__uns__text {
+        font-size: 18px;
+        text-align: justify;
+    }
+
+    #circle {
+        width: 100px;
+        height: 100px;
+    }
+
+    .warum__wir__component__top img {
+        height: 65px;
+    }
+
+    #wwcb__text h3 {
+        font-size: 18px;
+    }
+
+    #dcb {
+        grid-template-columns: 1fr 1fr;
     }
 }
 
@@ -214,13 +293,8 @@
         content: "ASN";
     }
 
-    .header__middle__right {
+    .header__middle {
         display: none;
-    }
-
-    .header__middle__content {
-        width: 100%;
-        justify-content: center;
     }
 
     .header__bottom {
@@ -231,26 +305,28 @@
         width: auto;
     }
 
-    .header__bottom img {
+    .menu {
+        display: block;
+    }
+
+    .exit__menu {
         display: block;
     }
 
     .navigation {
         display: none;
-    }
-
-    .navigation li a {
-        font-size: 18px;
+        margin-left: 0px;
     }
 
     /*HOME PROMO*/
     .home__promo img {
-        display: none;
+        width: 400px;
+        height: 243px;
     }
 
     .home__promo h1:after {
-        content: "ASN Gebäudemanagement";
-        font-size: 24px;
+        content: "ihr partner rund um gebaude und garten.";
+        font-size: 22px;
     }
 
     /*WARUM WIR*/
@@ -269,7 +345,7 @@
     }
 
     /*DEINSTLEISTINGEN*/
-    .deinstleistungen__content {
+    .deinstleistungen__home__content {
         grid-template-columns: 1fr;
     }
 
@@ -304,6 +380,14 @@
         font-size: 14px;
     }
 
+    .footer__right__content h4 {
+        margin-top: 30px;
+    }
+
+    .footer__right {
+        margin-bottom: 60px;
+    }
+
     .header__contact__left img {
         height: 25px;
     }
@@ -316,8 +400,16 @@
         font-size: 14px;
     }
 
+    .header__contact__right p {
+        font-size: 14px;
+    }
+
     #footer__left__text {
         font-size: 14px;
+    }
+
+    #footer__end {
+        justify-content: space-evenly;
     }
 
     .footer__center ul li a {
@@ -325,11 +417,38 @@
     }
 
     .footer__end__left p {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .footer__end__right img {
-        height: 12px;
+        height: 14px;
+    }
+
+    #uber__uns__text {
+        font-size: 18px;
+        text-align: justify;
+    }
+
+    #circle {
+        width: 100px;
+        height: 100px;
+    }
+
+    .uber__uns__content__bottom {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .warum__wir__component__top img {
+        height: 65px;
+    }
+
+    #wwcb__text h3 {
+        font-size: 18px;
+    }
+
+    #dcb {
+        grid-template-columns: 1fr;
     }
 }
 
@@ -344,13 +463,8 @@
         content: "ASN";
     }
 
-    .header__middle__right {
+    .header__middle {
         display: none;
-    }
-
-    .header__middle__content {
-        width: 100%;
-        justify-content: center;
     }
 
     .header__bottom {
@@ -361,8 +475,14 @@
         width: auto;
     }
 
-    .header__bottom img {
+    .menu {
         display: block;
+        margin-right: 20px;
+    }
+
+    .exit__menu {
+        display: block;
+        margin-right: 20px;
     }
 
     .navigation {
@@ -375,12 +495,16 @@
 
     /*HOME PROMO*/
     .home__promo img {
-        display: none;
+        width: 280px;
+        height: 170px;
+    }
+
+    .home__promo h1 {
+        font-size: 16px;
     }
 
     .home__promo h1:after {
-        content: "ASN Gebäudemanagement";
-        font-size: 18px;
+        content: "ihr partner rund um gebaude und garten.";
     }
 
     /*WARUM WIR*/
@@ -405,7 +529,7 @@
     }
 
     /*DEINSTLEISTINGEN*/
-    .deinstleistungen__content {
+    .deinstleistungen__home__content {
         grid-template-columns: 1fr;
     }
 
@@ -450,7 +574,6 @@
 
     .header__contact__right h3 {
         font-size: 14px;
-        word-break: break-word;
     }
 
     .header__contact__right p {
@@ -474,7 +597,7 @@
     }
 
     .footer__end__left p {
-        font-size: 9px;
+        font-size: 10px;
     }
 
     .footer__end__right img {
@@ -488,4 +611,30 @@
         right: 25px;
     }
 
+    #uber__uns__text {
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    #circle {
+        width: 100px;
+        height: 100px;
+    }
+
+    .uber__uns__content__bottom {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .warum__wir__component__top img {
+        height: 65px;
+    }
+
+    #wwcb__text h3 {
+        font-size: 18px;
+    }
+
+    #dcb {
+        grid-template-columns: 1fr;
+    }
 }

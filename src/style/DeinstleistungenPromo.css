@@ -1,0 +1,32 @@
+.deinstleistungen__promo {
+    position: relative;
+    text-align: center;
+    color: white;
+    transition: 1s;
+    display: inline-block;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.deinstleistungen__promo h2 {
+    font-size: 30px;
+    font-weight: 700;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.deinstleistungen__promo img {
+    width: 100%;
+    display: block;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.deinstleistungen__promo:hover img {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}

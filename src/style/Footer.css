@@ -1,0 +1,127 @@
+.footer {
+    width: 100%;
+    height: auto;
+    background-color: rgb(10, 135, 31);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+}
+
+.footer__content {
+    width: 85%;
+    display: grid;
+    padding-bottom: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 30px;
+}
+
+
+.footer__content h1 {
+    margin-top: 90px;
+}
+
+.footer__left p {
+    width: 80%;
+    text-align: justify;
+    font-size: 16px;
+}
+
+.footer__center ul {
+    list-style: none;
+}
+
+.footer__center li {
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.footer__center li a {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+.footer__center li a:hover {
+    text-decoration: none;
+}
+
+.hl {
+    width: 80%;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 60px;
+}
+
+.footer__right__content {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: -14px;
+    font-size: 15px;
+}
+
+.footer__right__content h3 {
+    font-size: 16px;
+}
+
+.footer__right__content p {
+    font-size: 16px;
+}
+
+.footer__end {
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(217, 217, 271);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__end__right {
+    margin-left: -20px;
+    margin-top: 0;
+}
+
+.footer__end__top {
+    display: flex;
+    gap: 20px;
+}
+
+.footer__end__top a {
+    text-decoration: none;
+    color: rgb(100, 100, 100);
+}
+
+.footer__end__top a:hover {
+    text-decoration: underline;
+}
+
+.footer__end__bottom p {
+    color: rgb(100, 100, 100);
+}
+
+.footer__end__bottom a {
+    text-decoration: underline;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.footer__end__bottom a:hover {
+    color: black;
+}
+
+.footer__end__right {
+    display: flex;
+    align-items: center;
+}
+
+.footer__end__right img {
+    margin-left: 20px;
+    cursor: pointer;
+}

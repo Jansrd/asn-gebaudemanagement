@@ -1,0 +1,42 @@
+.kontaktiereuns {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.kontaktiereuns__content {
+    width: 100%;
+    height: calc(100vh - 105px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.kontaktiereuns__content h3 {
+    font-size: 26px;
+}
+
+.kontaktiereuns__content p {
+    font-size: 26px;
+    color: rgb(135, 135, 135);
+}
+
+.kontaktiereuns__content img {
+    height: 55px;
+}
+
+.kontakt {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.kontaktiereuns__content h4 {
+    margin-top: 80px;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: rgb(10, 135, 31);
+}

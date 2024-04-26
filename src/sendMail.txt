@@ -1,0 +1,22 @@
+const sendEmail = (e) => {
+        e.preventDefault();
+        if (check === true) {
+            emailjs
+                .sendForm('service_djnct5u', 'template_jf8pbap', form.current, {
+                    publicKey: 'svqmM3udu8CHs6oxD',
+                })
+                .then(
+                    () => {
+                        console.log('SUCCESS!');
+                    },
+                    (error) => {
+                        console.log('FAILED...', error.text);
+                    },
+                );
+            e.target.reset()
+            alert("Nachricht wurde gesendet")
+        } else {
+            alert("Pin Ich habe die Datenschutzerklärung gelesen und werde es erneut versuchen! Danke schön.")
+        }
+        setCheck(false)
+    };

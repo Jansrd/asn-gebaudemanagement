@@ -1,0 +1,23 @@
+.header__contact {
+    display: flex;
+    align-items: center;
+}
+
+.header__contact__right {
+    margin-left: 15px;
+    margin-top: -2px;
+}
+
+.header__contact__right h3 {
+    font-size: 20px;
+}
+
+.header__contact__right p {
+    font-size: 20px;
+    color: rgb(135, 135, 135);
+}
+
+#sonntag {
+    color: red;
+    font-weight: 500;
+}

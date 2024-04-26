@@ -1,0 +1,757 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1420px) {
+    .header__contact__right h3 {
+        font-size: 18px;
+    }
+
+    .header__contact__right p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1320px) and (min-width: 1201px) {
+    .header__contact__right h3 {
+        font-size: 16px;
+    }
+
+    .header__contact__right p {
+        font-size: 16px;
+    }
+
+    .warum__wir__middle h3 {
+        width: 80%;
+        font-size: 20px;
+        justify-content: space-between;
+    }
+
+    .deinstleistungen__promo img {
+        width: 350px;
+        height: 140px;
+    }
+
+    .deinstleistungen__promo h2 {
+        font-size: 24px;
+    }
+
+    /*UBER UNS*/
+    #uber__uns__text {
+        font-size: 18px;
+        text-align: justify;
+    }
+
+    #circle {
+        width: 120px;
+        height: 120px;
+    }
+
+    .warum__wir__component__top img {
+        height: 80px;
+    }
+
+    /*KONKAKT*/
+    .kontaktiereuns__content h4 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 1025px) {
+
+    /*HEADER*/
+    .header__contact__left img {
+        height: 40px;
+    }
+
+    .header__contact__right {
+        margin-left: 10px;
+    }
+
+    .header__contact__right h3 {
+        font-size: 14px;
+    }
+
+    .header__contact__right p {
+        font-size: 14px;
+    }
+
+    /*HOME PROMO*/
+    .home__promo h1:after {
+        content: "Ihr Partner rund um Gebäude und Garten.";
+    }
+
+    /*WARUM WIR*/
+    .warum__wir__middle {
+        width: 60%;
+    }
+
+    .warum__wir__middle h3 {
+        font-size: 18px;
+        justify-content: space-between;
+    }
+
+    .warum__wir__bottom p {
+        font-size: 18px;
+    }
+
+    /*DEINSTLEISTINGEN*/
+    .deinstleistungen__promo img {
+        width: 300px;
+        height: 120px;
+    }
+
+    .deinstleistungen__promo h2 {
+        font-size: 22px;
+    }
+
+    /*KONTAKTIEREN SIE UNS*/
+    .kontaktieren__sie__uns__content {
+        width: 80%;
+    }
+
+    /*FOOTER*/
+    .footer__content h1 {
+        font-size: 24px;
+    }
+
+    #footer__left__text {
+        font-size: 15px;
+    }
+
+    .footer__center ul li a {
+        font-size: 15px;
+    }
+
+    .footer__end__top a {
+        font-size: 16px;
+    }
+
+    .footer__end__bottom p {
+        font-size: 16px;
+    }
+
+    .footer__end__right img {
+        height: 18px;
+    }
+
+    /*uber uns*/
+    #uber__uns__text {
+        font-size: 18px;
+        text-align: justify;
+    }
+
+    #circle {
+        width: 100px;
+        height: 100px;
+    }
+
+    .warum__wir__component__top img {
+        height: 65px;
+    }
+
+    #wwcb__text h3 {
+        font-size: 18px;
+    }
+
+    #ko h3 {
+        font-size: 22px;
+    }
+
+    #ko p {
+        font-size: 22px;
+        color: rgb(135, 135, 135);
+    }
+
+    #ko img {
+        height: 50px;
+    }
+
+    #kon h4 {
+        width: 60%;
+        text-align: center;
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+
+    /*HEADER*/
+    .header__middle {
+        display: none;
+    }
+
+    .navigation {
+        width: 100%;
+        margin-left: -50px;
+        justify-content: center;
+    }
+
+    .navigation li a {
+        font-size: 18px;
+    }
+
+    /*HOME PROMO*/
+    .home__promo img {
+        width: 450px;
+        height: 273px;
+    }
+
+    .home__promo h1:after {
+        content: "Ihr Partner rund um Gebäude und Garten.";
+    }
+
+    /*WARUM WIR*/
+    .warum__wir__middle {
+        width: 75%;
+    }
+
+    .warum__wir__middle h3 {
+        width: 150px;
+        font-size: 18px;
+        justify-content: space-between;
+    }
+
+    .warum__wir__bottom p {
+        font-size: 18px;
+    }
+
+    /*DEINSTLEISTINGEN*/
+    .deinstleistungen__promo img {
+        width: 300px;
+    }
+
+    .deinstleistungen__promo h2 {
+        font-size: 22px;
+    }
+
+    .deinstleistungen__home__content {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /*KONTAKTIEREN SIE UNS*/
+    .kontaktieren__sie__uns__content {
+        width: 70%;
+        flex-direction: column;
+    }
+
+    /*FOOTER*/
+
+    #fc {
+        grid-template-columns: 1fr;
+    }
+
+    .footer__content h1 {
+        font-size: 22px;
+    }
+
+    .footer__right h4 {
+        font-size: 14px;
+    }
+
+    .footer__right__content h4 {
+        margin-top: 30px;
+    }
+
+    .footer__right__content {
+        margin-bottom: 150px;
+    }
+
+    .footer__right {}
+
+    .header__contact__left img {
+        height: 25px;
+    }
+
+    .footer__right__content h3 {
+        font-size: 14px;
+    }
+
+    .footer__right__content p {
+        font-size: 14px;
+    }
+
+    #footer__left__text {
+        font-size: 14px;
+    }
+
+    .footer__center ul li a {
+        font-size: 14px;
+    }
+
+    .footer__end__top a {
+        font-size: 14px;
+    }
+
+    .footer__end__bottom p {
+        font-size: 14px;
+    }
+
+    .footer__end__right {
+        margin-top: 18px;
+    }
+
+    .footer__end__right img {
+        height: 16px;
+    }
+
+
+    /*uber uns*/
+    #uber__uns__text {
+        font-size: 18px;
+        text-align: justify;
+    }
+
+    #circle {
+        width: 100px;
+        height: 100px;
+    }
+
+    .warum__wir__component__top img {
+        height: 65px;
+    }
+
+    #wwcb__text h3 {
+        font-size: 18px;
+    }
+
+    #dcb {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #ko h3 {
+        font-size: 20px;
+    }
+
+    #ko p {
+        font-size: 20px;
+        color: rgb(135, 135, 135);
+    }
+
+    #ko img {
+        height: 45px;
+    }
+
+    #kon h4 {
+        width: 80%;
+        text-align: center;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 481px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    /*HEADER*/
+    .header__top p:after {
+        content: "ASN";
+    }
+
+    .header__middle {
+        display: none;
+    }
+
+    .header__bottom {
+        justify-content: right;
+    }
+
+    .header__middle__left {
+        width: auto;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .exit__menu {
+        display: block;
+    }
+
+    .navigation {
+        display: none;
+        margin-left: 0px;
+    }
+
+    /*HOME PROMO*/
+    .home__promo img {
+        width: 400px;
+        height: 243px;
+    }
+
+    .home__promo h1:after {
+        content: "Ihr Partner rund um Gebäude und Garten.";
+        font-size: 22px;
+    }
+
+    /*WARUM WIR*/
+    .warum__wir__middle {
+        width: 95%;
+    }
+
+    .warum__wir__middle h3 {
+        width: 150px;
+        font-size: 15px;
+        justify-content: space-between;
+    }
+
+    .warum__wir__bottom p {
+        font-size: 14px;
+    }
+
+    /*DEINSTLEISTINGEN*/
+    .deinstleistungen__home__content {
+        grid-template-columns: 1fr;
+    }
+
+    .deinstleistungen__promo img {
+        width: 300px;
+    }
+
+    .deinstleistungen__promo h2 {
+        font-size: 22px;
+    }
+
+    /*KONTAKTIEREN SIE UNS*/
+    .kontaktieren__sie__uns__content {
+        width: 70%;
+        flex-direction: column;
+    }
+
+    /*FOOTER*/
+    #fc {
+        grid-template-columns: 1fr;
+    }
+
+    .footer__right__content {
+        margin-bottom: 150px;
+    }
+
+    .footer__content h1 {
+        font-size: 22px;
+    }
+
+    .footer__right h4 {
+        font-size: 14px;
+    }
+
+    .footer__right__content h4 {
+        margin-top: 30px;
+    }
+
+    .footer__right {
+        margin-bottom: 60px;
+    }
+
+    .header__contact__left img {
+        height: 25px;
+    }
+
+    .header__contact__right h3 {
+        font-size: 14px;
+    }
+
+    .header__contact__right p {
+        font-size: 14px;
+    }
+
+    #footer__left__text {
+        font-size: 14px;
+    }
+
+    #footer__end {
+        justify-content: space-evenly;
+    }
+
+    .footer__center ul li a {
+        font-size: 14px;
+    }
+
+    .footer__end__top a {
+        font-size: 14px;
+    }
+
+    .footer__end__bottom p {
+        font-size: 14px;
+    }
+
+    .footer__end__right {
+        margin-top: 18px;
+    }
+
+    .footer__end__right img {
+        height: 16px;
+    }
+
+    #uber__uns__text {
+        font-size: 18px;
+        text-align: justify;
+    }
+
+    #circle {
+        width: 100px;
+        height: 100px;
+    }
+
+    .uber__uns__content__bottom {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .warum__wir__component__top img {
+        height: 65px;
+    }
+
+    #wwcb__text h3 {
+        font-size: 18px;
+    }
+
+    #dcb {
+        grid-template-columns: 1fr;
+    }
+
+    #ko h3 {
+        font-size: 18px;
+    }
+
+    #ko p {
+        font-size: 18px;
+        color: rgb(135, 135, 135);
+    }
+
+    #ko img {
+        height: 40px;
+    }
+
+    #kon h4 {
+        width: 60%;
+        text-align: justify;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 480px) and (min-width: 320px) {
+
+    h1 {
+        font-size: 24px;
+    }
+
+    /*HEADER*/
+    .header__top p:after {
+        content: "ASN";
+    }
+
+    .header__middle {
+        display: none;
+    }
+
+    .header__bottom {
+        justify-content: right;
+    }
+
+    .header__middle__left {
+        width: auto;
+    }
+
+    .menu {
+        display: block;
+        margin-right: 20px;
+    }
+
+    .exit__menu {
+        display: block;
+        margin-right: 20px;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .navigation li a {
+        font-size: 18px;
+    }
+
+    /*HOME PROMO*/
+    .home__promo img {
+        width: 280px;
+        height: 170px;
+    }
+
+    .home__promo h1 {
+        font-size: 16px;
+    }
+
+    .home__promo h1:after {
+        content: "Ihr Partner rund um Gebäude und Garten.";
+    }
+
+    /*WARUM WIR*/
+    .warum__wir__middle {
+        width: 95%;
+        flex-direction: column;
+    }
+
+    .vl {
+        transform: rotate(90deg);
+    }
+
+    .warum__wir__middle h3 {
+        width: 150px;
+        font-size: 15px;
+        justify-content: space-between;
+    }
+
+    .warum__wir__bottom p {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    /*DEINSTLEISTINGEN*/
+    .deinstleistungen__home__content {
+        grid-template-columns: 1fr;
+    }
+
+    .deinstleistungen__promo img {
+        width: 250px;
+    }
+
+    .deinstleistungen__promo h2 {
+        font-size: 18px;
+    }
+
+    /*KONTAKTIEREN SIE UNS*/
+    .kontaktieren__sie__uns__content {
+        width: 80%;
+        flex-direction: column;
+    }
+
+    .kontaktieren__sie__uns__content__left iframe {
+        height: 255px;
+    }
+
+    /*FOOTER*/
+    #fc {
+        grid-template-columns: 1fr;
+    }
+
+    .footer__right__content {
+        margin-bottom: 150px;
+    }
+
+    .footer__content h1 {
+        font-size: 22px;
+    }
+
+    .footer__right h4 {
+        font-size: 14px;
+    }
+
+    .footer__right__content h4 {
+        margin-top: 30px;
+    }
+
+    .header__contact__left img {
+        height: 25px;
+    }
+
+    .header__contact__right h3 {
+        font-size: 14px;
+    }
+
+    .header__contact__right p {
+        font-size: 14px;
+    }
+
+    .header__contact__right p {
+        font-size: 14px;
+    }
+
+    #footer__left__text {
+        font-size: 14px;
+    }
+
+    #footer__end {
+        justify-content: center;
+
+    }
+
+    .footer__center ul li a {
+        font-size: 14px;
+    }
+
+    .footer__end__top a {
+        font-size: 12px;
+    }
+
+    .footer__end__bottom p {
+        font-size: 12px;
+    }
+
+    .footer__end__right {
+        margin-top: 16px;
+    }
+
+    .footer__end__right img {
+        height: 14px;
+    }
+
+    /*BUTTON*/
+    .scroll__to__top button {
+        width: 40px;
+        height: 40px;
+        right: 25px;
+    }
+
+    #uber__uns__text {
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    #circle {
+        width: 100px;
+        height: 100px;
+    }
+
+    .uber__uns__content__bottom {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .warum__wir__component__top img {
+        height: 65px;
+    }
+
+    #wwcb__text h3 {
+        font-size: 18px;
+    }
+
+    #dcb {
+        grid-template-columns: 1fr;
+    }
+
+    #ko {
+        gap: 40px
+    }
+
+    #ko h3 {
+        font-size: 16px;
+    }
+
+    #ko p {
+        font-size: 16px;
+        color: rgb(135, 135, 135);
+    }
+
+    #ko img {
+        height: 40px;
+    }
+
+    #kon h4 {
+        width: 80%;
+        text-align: justify;
+        font-size: 15px;
+    }
+}
